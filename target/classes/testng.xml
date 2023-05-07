@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Buggy Cars Rating Demo">
+
+
+    <test name="Buggy Cars LoginTest" parallel="classes" thread-count="1">
+        <classes>
+            <class name="LoginTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Buggy Cars ProfileTest" parallel="classes" thread-count="1">
+        <classes>
+            <class name="ProfileTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Buggy Cars RegisterUserTest" parallel="classes" thread-count="1">
+        <classes>
+            <class name="RegisterUserTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Buggy Cars VoteTest" parallel="classes" thread-count="1">
+        <classes>
+            <class name="VoteTest"/>
+
+        </classes>
+    </test>
+
+
+</suite>
